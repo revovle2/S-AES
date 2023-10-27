@@ -71,6 +71,56 @@ Andrade组加密结果：
 
 随后，我们两组将所得密文解密，结果如下：
 
+本组解密结果如下：
+
+![39F2B5BF42694689693E3E920F82AE83](https://github.com/revovle2/S-AES/assets/93172576/e88a0915-598f-4b46-b36b-21ec563ed8f6)
+
+<p align="center">图7 本组解密密文1</p>
+
+Andrade小组解密结果如下：
+
+![img23](https://github.com/revovle2/S-AES/assets/93172576/1f83d31c-f1e7-4b51-8242-e239554e5203)
+
+
+<p align="center">图8 Andrade组解密密文</p>
+
+第二轮测试：同样选择密钥1010101010101010 明文为1010000111001011
+
+本组加密结果如下：
+
+![D942D4C297B9B8A20553FC736C56CF28](https://github.com/revovle2/S-AES/assets/93172576/1ccd4169-2f29-4a8b-b865-277af7a1c00a)
+
+<p align="center">图9 本组加密明文2</p>
+
+Andrade小组加密结果如下：
+
+![img25](https://github.com/revovle2/S-AES/assets/93172576/64a535c6-afb4-4472-92c1-0ec3e3d05ead)
+
+<p align="center">图10 测试小组加密明文2</p>
+
+对得到的密文1110110111000000 测试一致
+
+本组解密结果如下：
+
+![52F460E349B3665D022B21F6E8B685F8](https://github.com/revovle2/S-AES/assets/93172576/d73206c8-ebb0-4d7e-8a2b-8636c4f4c3d3)
+
+<p align="center">图11 本小组解密密文2</p>
+
+Andrade小组解密结果如下：
+
+![B4139BEFD558B3A8E8C647115884D8F5](https://github.com/revovle2/S-AES/assets/93172576/abbd457b-7bf4-4d12-84e6-4351463293d0)
+
+<p align="center">图12 Andrade组解密密文2</p>
+
+至此，第二关的组件测试未发现差错，完美通过。
+
+#### 第三关  拓展功能
+
+
+
+
+
+
 
 
 
