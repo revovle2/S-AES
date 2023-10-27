@@ -1492,7 +1492,12 @@ public class mainui extends JFrame{
 }
 ````
 
+## 用户指南
+#### 开始之前
 
+1.1 引言
+
+欢迎使用S-AES Java程序！本程序是一个基于Simplified Advanced Encryption Standard（简化高级加密标准，S-AES）算法的实现，旨在为您提供一个简单而强大的加密和解密工具。本手册将引导您了解如何使用该程序，以便您能够轻松地保护和恢复敏感信息。
 
 
 
