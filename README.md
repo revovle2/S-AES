@@ -222,6 +222,55 @@ Andrade小组解密结果如下：
 ###### 4.3 三重加密
 
 将S-AES算法通过三重加密进行扩展，下面两种模式选择一种完成：(1)按照32 bits密钥Key(K1+K2)的模式进行三重加密解密，(2)使用48bits(K1+K2+K3)的模式进行三重加解密。
+在本程序中，三重加密GUI如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/f442425f-618a-441a-a24d-2823c74fdcf3)
+<p align="center">图24 三重加密GUI</p>
+
+三个按钮可以分别随机生成密钥，当第一第二个密钥输入，而第三个密钥未输入时，采用32bits密钥 K1+k2的模式进行三重加密triple S-AES，而三个密钥都输入时，使用48bits(K1+K2+K3)的模式进行三重加解密。
+
+我们选择测试明文 CQU 采用32bits进行三重加密，密钥1 2分别为 0000100111100110  1011110111101100 加密得到密文늌胺ヱ ，结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/2b913630-b6ee-4538-8b51-c3531ad92e73)
+
+<p align="center">图25 三重加密CQU 模式一</p>
+
+解密结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/e044ffbb-bbe0-4a1d-8c4e-63f9fb0a7692)
+
+<p align="center">图26 三重解密到CQU 模式一</p>
+
+随后我们同样加密CQU 采用模式二：48bits三重加密 密钥3为 0000100001100001  加密得到 密文：냱฼㸸 结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/6e94f9aa-78be-45b0-9dd6-6a44f1dcad07)
+
+<p align="center">图27 三重加密CQU 模式二</p>
+
+随后我们对密文进行解密：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/18f0f9b5-8237-4b88-bf61-5e5a27f7e109)
+
+<p align="center">图28 三重解密到CQU 模式二</p>
+
+当然，如果加密密钥不足会有提示：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/98a5a269-bed3-4b31-82cc-2604239549cc)
+
+<p align="center">图29 密钥不足</p>
+
+至此，4-3关卡已经完美通过，第四关已经打通！
+
+#### 第五关 工作模式
+
+基于S-AES算法，使用密码分组链(CBC)模式对较长的明文消息进行加密。注意初始向量(16 bits) 的生成，并需要加解密双方共享。在CBC模式下进行加密，并尝试对密文分组进行替换或修改，然后进行解密，请对比篡改密文前后的解密结果。
+
+
+
+
+
+
+
 
 
 
