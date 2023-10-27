@@ -270,6 +270,39 @@ CBC模式的GUI如下：
 ![image](https://github.com/revovle2/S-AES/assets/93172576/0aa54110-2bc0-4243-ba67-c1b437da20c1)
 <p align="center">图30 基于S-AES的CBC加密UI</p>
 
+我们选用较长的明文  He still alive , he still survive ! uzi , yyds! 
+使用密钥 0000001000001110 初始向量为 0011010111110110
+
+加密结果如下：ꊝᖀ垾驖사ี炗ퟕ䷺긨ࡘ᧤턆蠽暘⌵ᒳݙ셀ꌤ꼶褜㫜䥔嫛엮⢌⺷힧�㻘嘹춎瑎�嗑슞瞮ल潚ﾰƯ嵭諣蚷矱
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/f620df95-24af-47b6-a002-4cb686b25b9f)
+
+
+<p align="center">图31 基于S-AES的CBC加密较长的明文</p>
+
+解密结果：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/a093c787-ffbc-4af5-8f6e-021d7fa7dfbb)
+
+<p align="center">图32 基于S-AES的CBC解密较长的密文</p>
+
+随后，我们对密文分组进行修改再解密：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/24995034-d5e2-4941-b0d8-c9b69bb0942d)
+
+<p align="center">图33 将某个字符改成1</p>
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/a17ca622-90b5-4777-a9be-6352b5b212ff)
+<p align="center">图34 替换密文分组</p>
+发现解密结果与原文有不少差异
+至此，第五关通关，测试完美结束。
+谢谢您对闯关报告的观看！
+
+
+
+
+
+
 
 
 
