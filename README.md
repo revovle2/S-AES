@@ -147,6 +147,60 @@ Andrade小组解密结果如下：
 
 <p align="center">图16 解密密文ꙩ臭鸆蹭</p>
 
+至此，第三关的要求已经全部实现，甚至加装了加密中文功能，完美通过第三关！
+
+#### 第四关 多重加密
+
+##### 4.1 双重加密
+
+将S-AES算法通过双重加密进行扩展，分组长度仍然是16 bits，但密钥长度为32 bits。
+
+双重加密的GUI如图所示：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/485f94ce-3d0c-4d39-ae3b-d21a8c394907)
+
+<p align="center">图17 双重加密GUI</p>
+
+使用方法同A-AES的GUI ，但是要两个密钥
+
+测试加密明文cquse 密钥1 密钥2 分别为0100111111011110  1000010100001010  测试结果如下：得到密文硚됄Ї琊ࡗ
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/e2c7cc76-c03e-4a2a-9939-bffb2e976333)
+
+<p align="center">图18 双重加密cquse</p>
+
+解密结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/70bfe8e3-c21f-4e3e-a476-b9401604100c)
+
+<p align="center">图19 双重解密硚됄Ї琊ࡗ</p>
+
+同时，我们选择明文 重庆大学大数据与软件学院 密钥1 0111010101001010 密钥2 0001000111010011
+
+结果如下 加密得到ꓹ㎜毭㟼毭莨觡꧶㒹㟼䰖
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/2c8a3777-00db-4a05-880f-4c1e1c32715c)
+
+<p align="center">图20 双重加密重庆大学大数据与软件学院</p>
+
+随后我们对密文进行解密，结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/9693ec46-2c0a-4003-8ec0-e5b5a256d882)
+
+<p align="center">图21 双重解密ꓹ㎜毭㟼毭莨觡꧶㒹㟼䰖得到重庆大学大数据与软件学院</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
