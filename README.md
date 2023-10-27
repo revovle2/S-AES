@@ -116,6 +116,43 @@ Andrade小组解密结果如下：
 
 #### 第三关  拓展功能
 
+考虑到向实用性扩展，加密算法的数据输入可以是ASII编码字符串(分组为2 Bytes)，对应地输出也可以是ACII字符串(很可能是乱码)。
+
+本程序输入的名密文可以兼容，即不需要切换功能，输入为二进制与ASCII码甚至中文均可
+
+加密明文cqu，密钥为0010110101101011
+
+加密结果如下（有乱码）：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/256a2e8a-94c0-431d-9dfa-bf7662976d72)
+
+<p align="center">图13 加密明文cqu</p>
+
+解密结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/37b58b0d-219c-4ba3-8bbb-8561ed826397)
+
+<p align="center">图14 解密密文㢒夡</p>
+
+选择第二组数据：加密明文：重庆大学 密钥选择0100101100100110
+
+加密结果如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/aa62a12f-c4c9-4e8f-a96d-7f0f81497dcd)
+
+<p align="center">图15 加密明文重庆大学</p>
+
+解密结果如下：
+![image](https://github.com/revovle2/S-AES/assets/93172576/3a1ecfbe-bfe0-4418-94bb-f486b008db48)
+
+<p align="center">图16 解密密文ꙩ臭鸆蹭</p>
+
+
+
+
+
+
+
 
 
 
