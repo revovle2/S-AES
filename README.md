@@ -1543,6 +1543,39 @@ S-AES程序的目标是为用户提供一种简化的数据加密工具，使其
 
   ![image](https://github.com/revovle2/S-AES/assets/93172576/31997039-ddee-47ab-b019-66f59d80873f)
 
+- 步骤3 加密操作
+  现在，假设你有一个明文需要加密，在GUI的第一个输入框输入你要加密的密文
+  
+  ![image](https://github.com/revovle2/S-AES/assets/93172576/b012bb6f-b2a2-4bd3-a8e7-bb48fd98b191)
+
+  随后输入16bits 密钥，你可以手动输入，也可以随机生成，本程序设计了随机生成密钥的按钮，点击即可
+  ![image](https://github.com/revovle2/S-AES/assets/93172576/5c6825a0-6e3a-4978-9e5c-7a2d4d3bf2ca)
+
+  点击加密按钮即可
+  ![image](https://github.com/revovle2/S-AES/assets/93172576/c23af724-ece4-4a50-bc16-d6a49f87653f)
+
+  要解密的话，同样也是在第一个输入框输入密文，解密即可
+
+  ![image](https://github.com/revovle2/S-AES/assets/93172576/5db0a813-9513-4e43-a525-6b134ba38f4a)
+
+  未输入明文或密文时，ui会有提示：
+  ![image](https://github.com/revovle2/S-AES/assets/93172576/d0108e2a-6b82-4577-9fd5-ae6687405227)
+
+  
+  未输入明文：
+
+  ![image](https://github.com/revovle2/S-AES/assets/93172576/05fa3b78-4403-4d38-8264-206a9cccd681)
+
+  随后，本程序还提供了双重加密以及三级加密，CBC加密，以及对双重加密的破解功能
+
+
+
+
+
+  
+
+  
+
 - 
 
 
