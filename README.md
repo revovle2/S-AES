@@ -265,6 +265,13 @@ Andrade小组解密结果如下：
 
 基于S-AES算法，使用密码分组链(CBC)模式对较长的明文消息进行加密。注意初始向量(16 bits) 的生成，并需要加解密双方共享。在CBC模式下进行加密，并尝试对密文分组进行替换或修改，然后进行解密，请对比篡改密文前后的解密结果。
 
+CBC模式的GUI如下：
+
+![image](https://github.com/revovle2/S-AES/assets/93172576/0aa54110-2bc0-4243-ba67-c1b437da20c1)
+<p align="center">图30 基于S-AES的CBC加密UI</p>
+
+
+
 
 
 
